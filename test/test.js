@@ -1,7 +1,7 @@
 'use strict';
-
+var fs = require('fs');
 var expect = require('chai').expect;
-var bitmap = require(__dirname + '/../bitmap.js');
+var convertBitmap = require(__dirname + '/../bitmap.js');
 
 describe('the bitmap processing function', function(){
   it('should open a bitmap using fs and read it into a buffer', function() {
