@@ -1,0 +1,18 @@
+{
+  "name": "rick_kenji_bitmap",
+  "version": "0.1.0",
+  "description": "a bitmap project by code fellows students Rick Patci and Kenji Crosland",
+  "main": "bitmap.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rick Patci & Kenji Crosland",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.4.0",
+    "mocha": "^2.3.3"
+  }
+}
