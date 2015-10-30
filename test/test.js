@@ -4,6 +4,9 @@ var expect = require('chai').expect;
 var convertBitmap = require(__dirname + '/../bitmap.js');
 
 describe('the bitmap processing function', function(){
+  it('should get a bitmap from a command line argument'){
+
+  }
   it('should open a bitmap using fs and read it into a buffer', function() {
 
   });
